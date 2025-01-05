@@ -1,0 +1,157 @@
+:root {
+  font-size: 1vw;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  
+}
+
+.sidebar {
+  width: 16vw;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  padding: 1vw;
+}
+
+.logo {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 3vw;
+}
+
+.new-chat {
+  padding: 1vw 2vw;
+  border-radius: 2vw;
+  background-color: #c8c8c8;
+  border: none;
+  margin-bottom: 2vw;
+}
+
+.recent {
+  margin-bottom: auto;
+}
+
+.recent-item {
+  font-size: 1.0rem;
+  margin-top: 1vw;
+}
+
+.settings p {
+  position: relative;
+  top: -1vw;
+  font-size: 1.0rem;
+
+}
+
+.settingsIcon {
+  float: left;
+  margin-right: 1rem;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1rem; 
+}
+
+.login-button {
+  background-color: #0b0b0b; 
+  color: white;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.logout-button {
+  background-color: #0b0b0b; 
+  color: white;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+
+
+.options {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10vw;
+  gap: 0vw;
+}
+
+.option {
+  width: 8vw;
+  height: 8vw;
+  background-color: #f7f7f7;
+  border-radius: 1vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1vw;
+  text-align: center;
+  font-size: 0.8vw;
+}
+
+
+
+.icon {
+  font-size: 2.4rem;
+  margin-bottom: 0.5vw;
+}
+
+.footer {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  padding: 1vw;
+  border-top: 0.1vw solid #ccc;
+}
+
+.input-container {
+  position: relative;
+  flex: 1;
+}
+
+
+
+.footer input:focus {
+  outline: none;
+} */
+
+.footer input {
+  width: 100%;
+  padding: 1vw;
+  padding-right: 0vw; 
+  border: none;
+  border-radius: 2vw;
+  font-size: 1.4rem;
+}
+
+.search-icon {
+  position: absolute;
+  right: 1vw; 
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+}
+
+
+

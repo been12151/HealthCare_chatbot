@@ -1,0 +1,88 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 5px; /* 모서리 둥글기 감소 */
+    width: 400px;
+    max-width: 90%;
+    text-align: center;
+    position: relative;
+  }
+  
+  .input-field {
+    width: 100%; /* 입력 필드가 모달에 맞게 꽉 차도록 */
+    padding: 8px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px; /* 모서리 둥글기 감소 */
+    box-sizing: border-box;
+  }
+  
+  .continue-button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 3px; 
+    cursor: pointer;
+  }
+  
+  .continue-button:hover {
+    background: #555;
+  }
+  
+  .social-button {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    background: #f0f0f0; 
+    color: black;
+    border: 1px solid #ddd;
+    border-radius: 3px; 
+    cursor: pointer;
+  }
+  
+  .social-button:hover {
+    background: #e0e0e0;
+  }
+  
+  .signup-link {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: black;
+  }
+  
+  .signup-link a {
+    color: #333; 
+    text-decoration: underline;
+  }
+  
+  .signup-link a:hover {
+    color: #555;
+  }
+  
+  .error-message {
+    color: #e74c3c;
+    font-size: 0.9rem;
+    margin-top: 5px;
+    text-align: left;
+    background-color: #fdecea;
+    padding: 5px;
+    border-radius: 3px;
+  }
+  
+  

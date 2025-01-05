@@ -1,0 +1,146 @@
+:root {
+  font-size: 1vw;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  width: 16vw;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  padding: 1vw;
+}
+
+.logo {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 3vw;
+}
+
+.new-chat {
+  padding: 1vw 2vw;
+  border-radius: 2vw;
+  background-color: #c8c8c8;
+  border: none;
+  margin-bottom: 2vw;
+}
+
+.recent {
+  margin-bottom: auto;
+}
+
+.recent-item {
+  font-size: 1.0rem;
+  margin-top: 1vw;
+}
+
+.settings p {
+  position: relative;
+  top: -1vw;
+  font-size: 1.0rem;
+}
+
+.settingsIcon {
+  float: left;
+  margin-right: 1rem;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1rem; 
+}
+
+.login-button {
+  background-color: #0b0b0b; 
+  color: white;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 2.4rem;
+  margin-bottom: 0.5vw;
+}
+
+.footer {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  padding: 1vw;
+  border-top: 0.1vw solid #ccc;
+}
+
+.input-container {
+  position: relative;
+  flex: 1;
+}
+
+
+.footer input {
+  width: 100%;
+  padding: 1vw;
+  padding-right: 0vw; 
+  border: none;
+  border-radius: 2vw;
+  font-size: 1.4rem;
+}
+
+.search-icon {
+  position: absolute;
+  right: 1vw; 
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+}
+
+/* New styles for the chat container */
+.chat-window {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1vw; /* Reduced padding */
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8vw; /* Reduced gap between messages */
+  border-radius: 1vw;
+  margin-top: 4vw; /* Reduced margin */
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+.message {
+  padding: 0.8vw; /* Reduced padding for message bubbles */
+  border-radius: 1vw;
+  max-width: 50%; /* Reduced max width */
+  word-wrap: break-word;
+  font-size: 0.8rem; /* Adjusted font size */
+}
+
+.user-message {
+  align-self: flex-end;
+  background-color: #cef;
+}
+
+.bot-message {
+  align-self: flex-start;
+  background-color: #eee;
+}
+
